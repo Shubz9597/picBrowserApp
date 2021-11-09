@@ -35,13 +35,6 @@ export const DetailPage = ({ list }) => {
 						<p className="text-start fs-3" style={{ color: "red" }}>
 							Upvotes: <span>{data.ups}</span>
 						</p>
-						<a
-							href={`https://www.reddit.com${data.permalink}`}
-							className="text-start fs-4"
-							target="_blank"
-						>
-							Visit this Post
-						</a>
 					</div>
 				</div>
 			</div>
